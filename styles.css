@@ -1,0 +1,24 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* font-size: 16px; */
+}
+
+.father {
+    border: solid black 1px; 
+}
+
+/* Selector de id */
+#id-child{
+    color: yellowgreen;
+}
+
+
+p {
+    color: red;
+    color: blue;
+    /* px es adsoluto */
+    font-size: 2.4rem;
+}
