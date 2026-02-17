@@ -1,0 +1,179 @@
+:root {
+
+/*  */
+/* green */
+--primary-50:	#F5FAF2;
+--primary-100:	#E1F2D8;
+--primary-200:	#CDE9BF;
+--primary-300:	#B9E0A5;
+--primary-400:	#A5D88C;
+--primary-500:	#92CF72;
+--primary-600:	#7EC759;
+--primary-700:	#6ABE3F;
+--primary-800:	#56B526;
+--primary-900:	#42AD0C;
+--primary-950:	#39A900;
+
+/* purple */
+--secundary-50:	    #ffffff;
+--secundary-100:	#fbf9fb;
+--secundary-200:	#f0e9f1;
+--secundary-300:	#e0d0e2;
+--secundary-400:	#cdb3d0;
+--secundary-500:	#b893bd;
+--secundary-600:	#a373a9;
+--secundary-700:	#905697;
+--secundary-800:	#803d88;
+--secundary-900:	#752d7e;
+--secundary-950:	#71277a;
+
+/* azulito */
+--tertiary-50:	#ffffff;
+--tertiary-100:	#fafeff;
+--tertiary-200:	#edfcfe;
+--tertiary-300:	#d9f9fe;
+--tertiary-400:	#c1f6fd;
+--tertiary-500:	#a8f2fc;
+--tertiary-600:	#8eeefb;
+--tertiary-700:	#76ebfa;
+--tertiary-800:	#62e8fa;
+--tertiary-900:	#55e6f9;
+--tertiary-950:	#50e5f9;
+
+/*  */
+--tertiary-50:	#ffffff;
+--tertiary-100:	#fffdf8;
+--tertiary-200:	#fff9e4;
+--tertiary-300:	#fff2c8;
+--tertiary-400:	#feeaa5;
+--tertiary-500:	#fee180;
+--tertiary-600:	#fed85a;
+--tertiary-700:	#fdd037;
+--tertiary-800:	#fdc91b;
+--tertiary-900:	#fdc507;
+--tertiary-950:	#fdc300;
+
+/* colores basicos */
+
+--white:	#ffffff;
+--black:	#000000;
+--gray-50:	#181818;
+--gray-100:	#242424;
+--gray-200:	#3D3D3D;
+--gray-300:	#565656;
+--gray-400:	#6E6E6E;
+--gray-500:	#878787;
+--gray-600:	#9F9F9F;
+--gray-700:	#B8B8B8;
+--gray-800:	#D1D1D1;
+--gray-900:	#E9E9E9;
+--gray-950:	#F6F6F6;
+
+
+/* Font-family */
+--main-fon: Helvetica, Aria, sans-serif;
+
+/* Font-size */
+--fs-xxxxl: 8.0rem; /*Ultra grande*/
+--fs-xxxl: 6.4rem;/*Super grande*/
+--fs-xxl: 4.8rem;/*Extra grande*/
+--fs-xl: 4.0rem;/*Muy grande*/
+--fs-lg: 3.3rem;/*Grande*/
+--fs-md: 2.4rem;/*Mediano*/
+--fs-sm: 2.0rem;/*pequeño*/
+--fs-xs: 1.6rem;/*Base*/
+--fs-xxs: 81.4rem;/*Base extra pequeño*/
+--fs-xxxs: 1.2rem;/*minimo*/
+
+}
+
+/* Globals */
+
+html {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--main-fon);
+}
+
+*,* :before, *::after{
+    box-sizing: inherit;
+}
+
+body { 
+    font-size: 1.6rem;
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: var(--fs-md);
+}
+
+.subtitle{
+    font-size: var(--fs-xs);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* clase - metodologia ben */
+.navbar {
+    background-color: var(--primary-800);
+    padding: 4px, 0;
+    margin: 0 auto;
+}
+
+
+.navbar__list {
+    list-style: none;
+    margin: 0 auto;
+}
+
+/* Hero */
+.hero__button {
+    color: #000000;
+}
+
+
+
+/* Unidad de medida de las pantallas */
+@media (width > 768px){
+    .navbar {
+        
+    }
+
+
+    .navbar__list {
+        display: flex;
+        flex-direction: row;
+        gap:  100px;
+        justify-content: space-evenly;
+    }
+}
+
+/* flexbox */
+/* rem solo con las fuentes, mas las cajas son con los px */
+/* .texts {
+    display: flex;
+    grid-template-columns: repeat(3, 50% 30% 20%);
+    gap: 48px;
+    flex-direction: column-reverse;
+    gap: 38px;
+    justify-content: space-around ;
+}
+
+.text{
+    border: solid 1px blue;
+} */
+
+/* Grid- se acomoda en columnas */
+
+
