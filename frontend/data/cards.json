@@ -1,0 +1,55 @@
+[
+    {
+        "__comment1": "Los JSON no permiten comillas simples"
+    },
+    {
+       
+        "id": "web-design",
+        "title": "Deseño web",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Volvemos tus ideas realidad con el mejor diseño para tu sitio web"
+    },
+    {
+       
+        "id": "decktop-application",
+        "title": "Aplicaciones de escritorio",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Creamos las aplicaciones para tu empresa modernas y accesibles "
+    },
+    {
+       
+        "id": "iot",
+        "title": "El internet de las cosas",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Automatizamos tu hogar con la mejor tecnologia y confiable"
+    },
+    {
+       
+        "id": "web-design",
+        "title": "Deseño web",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Volvemos tus ideas realidad con el mejor diseño para tu sitio web"
+    },
+    {
+       
+        "id": "desktop-application",
+        "title": "Aplicaciones de escritorio",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Creamos las aplicaciones para tu empresa modernas y accesibles "
+    },
+    {
+       
+        "id": "iot",
+        "title": "El internet de las cosas",
+        "icon1": "/frontend/assets/icons/brand-figma.svg",
+        "icon2": "/frontend/assets/icons/brand-figma.svg",
+        "description": "Automatizamos tu hogar con la mejor tecnologia y confiable"
+    }
+    
+    
+]
